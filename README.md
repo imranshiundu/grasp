@@ -14,6 +14,10 @@ GRASP = **G**ather, **R**ead, **A**sk, **S**tate, **P**roceed.
 
 > The human never has to learn to prompt. The agent learns to listen.
 
+## Why it exists
+
+The research is unambiguous: humans speak in **implicature** (Grice — meaning rides in what is not said), leave out what they treat as *obvious* (common ground), **point** instead of naming (deixis), and go vague exactly where their words run out (vague language). Meanwhile "Why Johnny Can't Prompt" (CHI 2023) showed novices can't — and shouldn't have to — write machine-shaped prompts. The answer is not teaching humans to prompt. It is teaching agents to grasp.
+
 ## Status
 
 Under active development. Every update lands here in real time.
