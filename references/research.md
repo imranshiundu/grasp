@@ -67,6 +67,12 @@ Anthropic's *Building effective agents*: agents "begin their work with either a 
 
 **Implication:** GRASP operationalizes existing doctrine at the input boundary: discussion is where intent is recovered; the stated interpretation is the transparency.
 
+## Finding 11 — The quality bar is part of the implied spec — VERIFIED
+
+The aesthetic-usability effect: "users' tendency to perceive attractive products as more usable" — Kurosu & Kashimura (CHI '95, 26 ATM variants, 252 participants) found the correlation between aesthetic appeal and *perceived* ease of use stronger than with *actual* ease of use (Kurosu & Kashimura 1995; Norman 2004; via NN/g, fetched 2026-10-12). Its limit is the guardrail: the effect is "at its strongest when the aesthetics support and enhance the content and functionality." Emojis, meanwhile, are not decoration but pragmatic acts — Shormani (arXiv:2608.01174) shows they carry interpersonal pragmatic functions: politeness, respect, solidarity, empathy, encouragement.
+
+**Implication:** when a human is silent about polish, register, or how the machine gets left, that silence is common ground (Finding 3), and the professional bar sits inside the implied spec. Uninvited emojis are unlicensed politeness acts (Finding 6's machinery, aimed the wrong way); stub UI is a spec read through the wrong end of the aesthetic-usability effect; silently substituted shortcuts poison the repair loop (Finding 5). The delivery bar in `standards.md` names the floor.
+
 ## The synthesis (what GRASP is)
 
 | Human speech is... | ...so the agent does |
@@ -79,6 +85,7 @@ Anthropic's *Building effective agents*: agents "begin their work with either a 
 | Off-record: requests in indirect clothing | Weigh stakes and reversibility over mode-of-speech |
 | Burden-freely lazy — by right | Never lecture, quiz, or demand prompt engineering |
 | ...and LLMs mishandle this by default | Guard against presupposing one interpretation; ask only when a wrong guess is expensive |
+| Silent about quality — by common ground | Deliver at the bar: register, UI floor, honest labeling, clean machine (`standards.md`) |
 
 ## Sources
 
@@ -96,4 +103,6 @@ Status labels: **fetched** (retrieved and read this project) / **unfetched** (re
 - Huang, Barlacchi & Pezzelle (2026), arXiv:2602.11938 — fetched (arXiv API, round 2)
 - Pecher et al. (2026), arXiv:2602.04297 — fetched (arXiv API, round 2)
 - Anthropic, *Building effective agents*; *Prompting best practices* — fetched
+- Kurosu & Kashimura (1995); Norman (2004) — via NN/g, *The Aesthetic-Usability Effect* — fetched (round 3)
+- Shormani (2026), arXiv:2608.01174 — emoji pragmatics — fetched (arXiv API, round 3)
 - Zamfirescu-Pereira et al. (2023), *Why Johnny Can't Prompt*, doi:10.1145/3544548.3581403 — **unfetched** (ACM 403; Semantic Scholar 429; arXiv 0 results); claims labeled ASSUMED (Finding 7)

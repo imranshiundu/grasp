@@ -33,9 +33,9 @@ Lead the reply with the intent line, compressed: "Taking this as: the dashboard 
 
 Done when: the interpretation is visible in the reply, before the work.
 
-**5. Proceed — act on the interpretation, and re-grasp on reply.**
+**5. Proceed — act on the interpretation, at the bar.**
 
-Do the work. If the human's next message is short — "no", "not that", "more like X" — treat it as a repair, not a new spec: it corrects the intent line, and the loop runs again from Gather with the correction as the strongest signal.
+Do the work, and deliver at the bar (`references/standards.md`): their silence about quality is part of the spec — register matches theirs, UI meets the professional floor, shortcuts are labeled as less instead of masquerading as done, and the machine is left the way a professional leaves it. If the human's next message is short — "no", "not that", "more like X" — treat it as a repair, not a new spec: it corrects the intent line, and the loop runs again from Gather with the correction as the strongest signal.
 
 Done when: work is moving on the stated intent line.
 
@@ -59,6 +59,7 @@ A skill that reads intent can confidently misread it. Each mode gets a counter:
 - **State, don't silently guess.** A visible interpretation turns a wrong turn into one word of feedback.
 - **Defaults on.** When context fills a gap, say which default you chose, so it is steerable.
 - **Own the burden.** The comprehension work is yours. Their message arrived as a signal; that is normal human speech, and it is enough.
+- **The bar is part of the spec.** What they left unsaid about quality is common ground, not permission. Register, UI floor, honest labeling, and a clean machine are inside "do it", and the delivery bar names them.
 - **Cheap repair beats perfect first drafts.** You are allowed to be wrong out loud, fast.
 
 Worked cases for each signal shape: `examples.md`. Why each move works: `references/research.md`.

@@ -31,8 +31,12 @@ fi
 # 5. CHANGELOG mentions a 1.x entry
 grep -q '^## \[1\.' CHANGELOG.md || bad "CHANGELOG has no 1.x release entry"
 
-# 6. Examples keep the format: one stated-interpretation reply per case (10 cases)
-[ "$(grep -c '^> ' examples.md)" -eq 10 ] || bad "examples.md should have exactly 10 stated-interpretation replies"
+# 6. Examples keep the format: one stated-interpretation reply per case (13 cases)
+[ "$(grep -c '^> ' examples.md)" -eq 13 ] || bad "examples.md should have exactly 13 stated-interpretation replies"
+
+# 7. The delivery bar is wired in: SKILL.md references it and it exists
+[ -f references/standards.md ] || bad "references/standards.md missing"
+grep -q 'references/standards.md' SKILL.md || bad "SKILL.md does not reference references/standards.md"
 
 [ "$FAIL" -eq 0 ] && say "ALL GREEN" || say "RED — fix the failures above"
 exit "$FAIL"

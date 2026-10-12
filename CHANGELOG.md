@@ -2,6 +2,18 @@
 
 All notable changes to GRASP. This project follows [Semantic Versioning](https://semver.org/).
 
+## [1.2.0] - 2026-10-12
+
+### Added
+- **The delivery bar** (`references/standards.md`) — the output half of the skill: register matching (emojis are pragmatic acts — Shormani, arXiv:2608.01174 — so they enter when the human's do), the UI taste floor (aesthetic-usability effect, Kurosu & Kashimura CHI '95 via NN/g, with its "support the functionality" guardrail), honest labeling of shortcuts (no substitution masquerading as done), and the machine-you-leave-behind standard for environment setup.
+- SKILL.md: Proceed step now runs "at the bar"; new doctrine line — *the bar is part of the spec* (silence about quality is common ground, not permission).
+- Three worked cases: register/emoji habit, UI taste floor, environment setup.
+- Research Finding 11 (quality bar as implied intent, VERIFIED) + round-3 sources.
+
+[1.2.0]: https://github.com/imranshiundu/grasp/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/imranshiundu/grasp/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/imranshiundu/grasp/releases/tag/v1.0.0
+
 ## [1.1.0] - 2026-10-12
 
 ### Added
@@ -16,6 +28,3 @@ All notable changes to GRASP. This project follows [Semantic Versioning](https:/
 - "Why Johnny Can't Prompt" (CHI 2023) relabeled **ASSUMED** — the abstract was never fetched (ACM 403, Semantic Scholar 429, arXiv 0 results); it had been presented as consulted. Receipts now attached in `references/research.md`.
 - Schegloff/Jefferson/Sacks repair claims upgraded from memory-cited to **VERIFIED** (conversation-analysis source fetched).
 - Typo in `references/signals.md` ("haskel**l**" → "Haskell").
-
-[1.1.0]: https://github.com/imranshiundu/grasp/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/imranshiundu/grasp/releases/tag/v1.0.0
