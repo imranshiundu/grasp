@@ -20,7 +20,7 @@ Flat reference for the **Read** step of `SKILL.md`. Each signal: what it sounds 
 
 ## Analogy
 
-*Sounds like:* "like Instagram for podcasts", "Tinder for jobs", "make it feel like a haskel**l** rewrite of that CLI".
+*Sounds like:* "like Instagram for podcasts", "Tinder for jobs", "make it feel like a Haskell rewrite of that CLI".
 
 *Underneath:* a compressed bundle of borrowed features and one differentiator. Humans reach for analogies because they carry whole design vectors in one word.
 

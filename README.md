@@ -35,12 +35,20 @@ Works with any agent harness that reads agent skills (SKILL.md format): OpenCode
 ## Structure
 
 ```
-SKILL.md          the skill: the GRASP loop
+SKILL.md          the skill: the GRASP loop, failure modes, escalation
 references/
   signals.md      catalog of how humans signal intent in messy messages
-  research.md     distilled research: pragmatics, conversation analysis, prompting studies
+  research.md     distilled research with evidence labels (VERIFIED / ASSUMED)
 examples.md       worked before/after cases
+CONTRIBUTING.md   ground rules for contributing
+DEBT_LEDGER.md    known debt, burned publicly
+scripts/
+  validate.sh     mechanical structure check (run before PRs)
 ```
+
+## Contributing
+
+Read `CONTRIBUTING.md`. The one rule that matters: every research claim carries an evidence label, and claims without receipts don't merge.
 
 ## License
 

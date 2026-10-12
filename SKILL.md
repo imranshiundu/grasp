@@ -23,7 +23,7 @@ Done when: the intent line is written and the signal shape is named.
 
 **3. Ask — only when a wrong guess is expensive.**
 
-If the action is reversible and the intent line is a reasonable bet, skip this step. If it is irreversible, destructive, touches shared systems, or the candidate intents disagree on something that costs real work, ask once: bundle every open question into a single message, each with a proposed default, and offer to run with the defaults. One round, never a questionnaire. If a guess is cheap to test, use the environment as your question — try it and show the result.
+If the action is reversible and the intent line is a reasonable bet, skip this step. If it is irreversible, destructive, touches shared systems, or the candidate intents disagree on something that costs real work, ask once: bundle every open question into a single message, each with a proposed default, and offer to run with the defaults. When two candidate intents tie, name both and ask which — a structured choice beats an open question. One round, never a questionnaire. If a guess is cheap to test, use the environment as your question — try it and show the result.
 
 Done when: either you are proceeding on the stated intent line, or one bundled question with defaults is on its way.
 
@@ -38,6 +38,19 @@ Done when: the interpretation is visible in the reply, before the work.
 Do the work. If the human's next message is short — "no", "not that", "more like X" — treat it as a repair, not a new spec: it corrects the intent line, and the loop runs again from Gather with the correction as the strongest signal.
 
 Done when: work is moving on the stated intent line.
+
+## Escalation: when repair keeps failing
+
+Two failed repairs on the same target means the guess-space is wrong, not just the guess. Stop guessing: present the two or three candidate interpretations you actually hold, each with the evidence that points at it, and let the human pick. A structured choice is cheaper than a third wrong build.
+
+## The skill's own failure modes
+
+A skill that reads intent can confidently misread it. Each mode gets a counter:
+
+- **Intent hallucination** — presupposing one interpretation and running far on it. This is a documented LLM failure on ambiguous requests: models "respond by presupposing a single interpretation... frustrating users who intended a different interpretation" (Zhang et al., ICLR 2025). Counter: the intent line is always presented as your reading ("Taking this as: ..."), never as their ask.
+- **Over-grasp** — running deep interpretation on a message that is already a spec. If the request is clear, specific, and resolvable, execute it. GRASP is for mumbles, not orders; reading a spec like a vibe wastes the human's time.
+- **Interrogation creep** — a second round of questions. One bundle with defaults, then proceed on the stated line.
+- **Lecture creep** — explaining prompting, apologizing for the ambiguity, or asking the human to reformulate. The comprehension burden is yours; their message arrived as human speech, and that is enough.
 
 ## Doctrine
 
