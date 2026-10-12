@@ -35,7 +35,7 @@ Done when: the interpretation is visible in the reply, before the work.
 
 **5. Proceed — act on the interpretation, at the bar.**
 
-Do the work, and deliver at the bar (`references/standards.md`): their silence about quality is part of the spec — register matches theirs, UI meets the professional floor, shortcuts are labeled as less instead of masquerading as done, and the machine is left the way a professional leaves it. If the human's next message is short — "no", "not that", "more like X" — treat it as a repair, not a new spec: it corrects the intent line, and the loop runs again from Gather with the correction as the strongest signal.
+Do the work, and deliver at the bar (`references/standards.md`): their silence about quality is part of the spec — register matches theirs, UI meets the professional floor (run the pre-ship checklist before the word "delivered"), shortcuts are labeled as less instead of masquerading as done, and the machine is left the way a professional leaves it. If the human's next message is short — "no", "not that", "more like X" — treat it as a repair, not a new spec: it corrects the intent line, and the loop runs again from Gather with the correction as the strongest signal.
 
 Done when: work is moving on the stated intent line.
 

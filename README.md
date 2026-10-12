@@ -39,6 +39,7 @@ SKILL.md          the skill: the GRASP loop, failure modes, escalation
 references/
   signals.md      catalog of how humans signal intent in messy messages
   standards.md    the delivery bar: register, UI floor, honest shortcuts, clean machine
+  ui-checklist.md the mechanical pre-ship UI checklist (run before "delivered")
   research.md     distilled research with evidence labels (VERIFIED / ASSUMED)
 examples.md       worked before/after cases (input signals + output bar)
 CONTRIBUTING.md   ground rules for contributing

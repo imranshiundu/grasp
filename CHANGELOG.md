@@ -2,6 +2,13 @@
 
 All notable changes to GRASP. This project follows [Semantic Versioning](https://semver.org/).
 
+## [1.3.0] - 2026-10-12
+
+### Added
+- **The pre-ship UI checklist** (`references/ui-checklist.md`) — nine observable checks that make the UI taste floor mechanical: renders at both widths, real content, one primary action, working states, no dead ends, zero console errors, one spacing scale + palette, focus/tap, and a screenshot receipt. Undeclared skips must be declared in the delivery reply. Wired into SKILL.md's Proceed step and standards.md; validator now checks the chain.
+
+[1.3.0]: https://github.com/imranshiundu/grasp/compare/v1.2.0...v1.3.0
+
 ## [1.2.0] - 2026-10-12
 
 ### Added

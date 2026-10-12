@@ -18,6 +18,8 @@ Flat reference for the **Proceed** step of `SKILL.md`. The premise: silence abou
 
 **Receipts:** VERIFIED (NN/g *Aesthetic-Usability Effect*, fetched 2026-10-12).
 
+**Before calling it delivered:** run the pre-ship checklist (`ui-checklist.md`) — nine observable checks, screenshot receipt included. Judgment about "good enough" ends there; the checklist is where the floor becomes mechanical.
+
 ## Substitution: no shortcut masquerading as done
 
 **The habit:** the real thing is out of reach this turn, so a lesser thing ships silently — a mock where the integration should be, a hardcoded value where the parser should be, a demo presented as the feature.
